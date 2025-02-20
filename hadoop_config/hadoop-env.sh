@@ -1,0 +1,1 @@
+export JAVA_HOME=/home/hadoop/jdk

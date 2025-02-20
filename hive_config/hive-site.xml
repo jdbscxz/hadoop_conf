@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+
+
+<!-- Hive 相关配置-->
+<configuration>
+    <!-- jdbc连接的URL -->
+    <property>
+        <name>javax.jdo.option.ConnectionURL</name>
+        <value>jdbc:mysql://192.168.182.128:3306/metastore?useSSL=false</value>
+    </property>
+
+    <!-- jdbc连接的Driver-->
+    <property>
+        <name>javax.jdo.option.ConnectionDriverName</name>
+        <value>com.mysql.cj.jdbc.Driver</value>
+    </property>
+
+    <!-- jdbc连接的username-->
+    <property>
+        <name>javax.jdo.option.ConnectionUserName</name>
+        <value>root</value>
+    </property>
+
+    <!-- jdbc连接的password -->
+    <property>
+        <name>javax.jdo.option.ConnectionPassword</name>
+        <value>zkw666..</value>
+    </property>
+
+    <!-- Hive默认在HDFS的工作目录 -->
+    <property>
+        <name>hive.metastore.warehouse.dir</name>
+        <value>/user/hive/warehouse</value>
+    </property>
+
+    <!-- 指定hiveserver2连接的host -->
+    <property>
+        <name>hive.server2.thrift.bind.host</name>
+        <value>hadoop01</value>
+    </property>
+
+    <!-- 指定hiveserver2连接的端口号 -->
+    <property>
+        <name>hive.server2.thrift.port</name>
+        <value>10000</value>
+    </property>
+
+    <!-- metastore远端模式 指定metastore.uris后可以不写 -->
+    <!--
+    <property>
+        <name>hive.metastore.local</name>
+        <value>false</value>
+    </property>
+    -->
+    <!-- 指定metastore服务的地址 -->
+    <property>
+        <name>hive.metastore.uris</name>
+        <value>thrift://hadoop01:9083</value>
+    </property>
+
+    <!-- 打印表头 -->
+    <property>
+        <name>hive.cli.print.header</name>
+        <value>true</value>
+    </property>
+
+    <!-- 开启这个属性可以在CLI提示符前打印出当前所在数据库名，默认数据库名为default -->
+    <property>
+        <name>hive.cli.print.current.db</name>
+        <value>true</value>
+    </property>
+
+    <!-- 存储格式改为ORC -->
+    <property>
+        <name>hive.default.fileformat</name>
+        <value>ORC</value>
+    </property>
+</configuration>
