@@ -136,8 +136,8 @@ cd $SPARK_HOME/bin
 --num-executors 10
 ```
 
+# 参考
 
-
-[参考文章1][https://developer.aliyun.com/article/917008]
-
-[参考文章2][https://www.cnblogs.com/luengmingbiao/p/12985143.html]
+> 参考文章1:https://developer.aliyun.com/article/917008
+> 
+> 参考文章2:https://www.cnblogs.com/luengmingbiao/p/12985143.html
