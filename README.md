@@ -1,6 +1,6 @@
 # 记录搭建Hadoop集群配置文件
 
-![Static Badge](https://img.shields.io/badge/Centos-7-blue) ![Static Badge](https://img.shields.io/badge/Mysql-v8.0.31-gree) ![Static Badge](https://img.shields.io/badge/Java-v1.8.212-gree) ![Static Badge](https://img.shields.io/badge/Hadoop-v3.4.3-gree) ![Static Badge](https://img.shields.io/badge/Hive-v3.1.3-gree) ![Static Badge](https://img.shields.io/badge/Spark-3-gree)
+![Static Badge](https://img.shields.io/badge/Centos-7-blue) ![Static Badge](https://img.shields.io/badge/Mysql-v8.0.31-gree) ![Static Badge](https://img.shields.io/badge/Java-v1.8.212-gree) ![Static Badge](https://img.shields.io/badge/Hadoop-v3.4.3-gree) ![Static Badge](https://img.shields.io/badge/Hive-v3.1.3-gree) ![Static Badge](https://img.shields.io/badge/Spark-3.3.1-gree)
 
 
 操作系统:
