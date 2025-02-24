@@ -1,4 +1,3 @@
-
 spark-submit \
   --master yarn \
   --deploy-mode client \
@@ -6,4 +5,4 @@ spark-submit \
   --executor-memory 16g \
   --executor-cores 8 \
   --conf spark.dynamicAllocation.enabled=true \
-  2.py
+  spark.py
